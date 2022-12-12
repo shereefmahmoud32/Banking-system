@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{4a4f0077-a59c-4210-a700-b70d35924a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Card">
+      <UniqueIdentifier>{d2247b6a-ea49-440a-891f-03b829795496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terminal">
+      <UniqueIdentifier>{77710270-1e9c-4201-b1f4-b8c0aef10bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{f29e6d89-872b-45dd-aae5-490e0055d6af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{a8e4f108-9343-45d6-b069-668526a4f0e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="card.c">
+      <Filter>Card</Filter>
+    </ClCompile>
+    <ClCompile Include="terminal.c">
+      <Filter>Terminal</Filter>
+    </ClCompile>
+    <ClCompile Include="server.c">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>Card</Filter>
+    </ClCompile>
+    <ClCompile Include="test_terminal.c">
+      <Filter>Terminal</Filter>
+    </ClCompile>
+    <ClCompile Include="test_server.c">
+      <Filter>Server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="card.h">
+      <Filter>Card</Filter>
+    </ClInclude>
+    <ClInclude Include="terminal.h">
+      <Filter>Terminal</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
